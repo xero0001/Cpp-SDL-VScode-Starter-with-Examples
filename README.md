@@ -22,9 +22,13 @@ Copy source codes from examples and paste in src path or just run in example fol
 
 # Downloads
 
-### SDL
+### SDL2
 
 <https://www.libsdl.org/download-2.0.php>
+
+### SDL_image2
+
+<https://www.libsdl.org/projects/SDL_image/>
 
 ### MinGW (for Windows)
 
