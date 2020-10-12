@@ -22,7 +22,7 @@ int main(int argc, char **argv)
 
   while (1)
   {
-
+    // Fill old rectangle with dark purple color
     SDL_FillRect(surface, &rec, SDL_MapRGB(surface->format, 180, 10, 140));
 
     // Update rectangle position
@@ -31,12 +31,15 @@ int main(int argc, char **argv)
     rec.x = rec.x > 800 ? 0 : rec.x;
     rec.y = rec.y > 600 ? 0 : rec.y;
 
+    // Fill new rectangle with bright green color
     SDL_FillRect(surface, &rec, SDL_MapRGB(surface->format, 10, 200, 120));
 
+    // Draw updated surface with 60FPS
     SDL_UpdateWindowSurface(window);
     SDL_Delay((1.0 / 60) * 1000);
   }
 
+  // Destory and exit
   SDL_FreeSurface(surface);
   SDL_DestroyWindow(window);
   SDL_Quit();
