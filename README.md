@@ -12,13 +12,13 @@ But you don't need to create tasks.json, launch.json and c_cpp_properties.json f
 
 \*Haven't setup with MacOS, but you could easily find it elsewhere.
 
-### Examples
-
-Copy source codes from examples and paste on main.cpp file at root folder.
-
 ### Run
 
 Press F5 on Vscode. Debug will be run based on .vscode settings.
+
+### Examples
+
+Copy source codes from examples and paste in src path or just run in example folder.
 
 # Downloads
 

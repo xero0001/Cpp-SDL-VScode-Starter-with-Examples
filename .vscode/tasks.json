@@ -7,13 +7,13 @@
         "command": "C:\\Program Files\\mingw-w64\\x86_64-8.1.0-win32-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe",
         "args": [
           "-g",
-          "${file}",
+          "${fileDirname}\\*.cpp",
           "-o",
           "${fileDirname}\\${fileBasenameNoExtension}.exe",
           "-lmingw32",
           "-lSDL2main",
           "-lSDL2",
-          "-mwindows",
+          // "-mwindows",
         ],
         "options": {
           // {Your MinGW bin folder}
@@ -27,12 +27,13 @@
         "command": "C:\\Program Files\\mingw-w64\\x86_64-8.1.0-win32-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe",
         "args": [
           "${file}",
+          "${fileDirname}\\*.cpp",
           "-o",
           "${fileDirname}\\${fileBasenameNoExtension}.exe",
           "-lmingw32",
           "-lSDL2main",
           "-lSDL2",
-          "-mwindows",
+          // "-mwindows",
         ],
         "options": {
           // {Your MinGW bin folder}

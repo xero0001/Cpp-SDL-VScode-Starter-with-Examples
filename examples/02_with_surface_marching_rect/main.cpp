@@ -1,17 +1,17 @@
-#include <SDL2/SDL.h>
+#include "SDL2/SDL.h"
 
-SDL_Window *window = NULL;
-SDL_Surface *surface = NULL;
+SDL_Window *window = nullptr;
+SDL_Surface *surface = nullptr;
 
 int main(int argc, char **argv)
 {
   SDL_Init(SDL_INIT_EVERYTHING);
 
   window = SDL_CreateWindow("02. With surface - Marching rect", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, 800, 600, SDL_WINDOW_SHOWN);
-  if (window == nullptr)
+  if (!window)
     return -1;
   surface = SDL_GetWindowSurface(window);
-  if (surface == nullptr)
+  if (!surface)
     return -2;
 
   SDL_Rect rec;
