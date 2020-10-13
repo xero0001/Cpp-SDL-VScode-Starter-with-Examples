@@ -51,3 +51,5 @@ Copy source codes from examples and paste in src path or just run in example fol
 ### Cplusplus-SDL2-Starter-For-Game-Development
 
 <https://github.com/ninap41/Cplusplus-SDL2-Starter-For-Game-Development>
+
+<!-- https://m.blog.naver.com/PostView.nhn?blogId=dlcksgod1&logNo=220889925771&proxyReferer=https:%2F%2Fwww.google.com%2F -->
