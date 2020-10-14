@@ -16,7 +16,7 @@ int main(int argc, char **argv)
 
   // Create new game object and initialize
   game = new Game();
-  game->init("10 Input Handling", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, 800, 640, false);
+  game->init("07 Entity Component System", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, 800, 640, false);
 
   while (game->running())
   {

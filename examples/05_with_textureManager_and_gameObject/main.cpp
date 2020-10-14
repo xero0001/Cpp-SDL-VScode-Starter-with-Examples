@@ -16,7 +16,7 @@ int main(int argc, char **argv)
 
   // Create new game object and initialize
   game = new Game();
-  game->init("04 With sprite", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, 800, 600, false);
+  game->init("05 With TextureManager and GameObject", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, 800, 640, false);
 
   while (game->running())
   {
