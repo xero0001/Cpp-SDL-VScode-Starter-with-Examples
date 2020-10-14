@@ -20,6 +20,8 @@ Press F5 on Vscode. Debug will be run based on .vscode settings.
 
 Copy source codes from examples and paste in src path or just run in example folder.
 
+Examples are following "How To Make A Game In C++ & SDL2 From Scratch!" which is showing how to build BirchEngine.
+
 # Downloads
 
 ### SDL2
